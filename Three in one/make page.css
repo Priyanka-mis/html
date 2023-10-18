@@ -1,0 +1,125 @@
+.webpage{ 
+   padding-top:100px;
+   padding-left:500px;   
+}
+
+.web{
+   height:20px;
+   /* font-weight: 20px; */
+
+}
+
+.page{
+    padding-bottom:15px;
+    /* border:1px solid ; */
+    width:700px;
+    padding:1px 1px 1px 1px;
+    position:relative;
+    padding-left:40px;
+    padding-top:10px;
+    background-color:rgb(251, 248, 248);
+    margin-top:-10px;
+}
+
+
+
+.page h1{
+   color: hsl(179, 63%, 32%);
+}
+
+.page h2{
+   color:hsl(71, 73%, 54%);
+
+}
+
+.page p{
+   margin-top:20px;
+   font-weight: bold;
+   
+}
+
+.container{
+   display: flex;
+   /* border:1px solid ; */
+   /* box-shadow: 0 0 20px 0px rgba(0,0,0,0.2); */
+
+}
+
+.page1{
+   padding-left:40px;
+   border:1px solid ;
+   width: 330px;
+   height: 300px;
+   color:white
+
+}
+
+.page1 h3{
+   padding-top:30px;
+   font-weight: bold;
+
+}
+.page1 h1 span{
+   padding-top:0px;
+   font-size:50px;
+}
+
+.page1 h1{
+   font-size:15px;
+}
+
+
+
+.page1 p{
+   font-weight: bold;
+   
+
+}
+
+#color1{
+   background-color: hsl(179, 63%, 32%);
+}
+
+#color2{
+   background-color:hsl(179, 62%, 43%);
+
+}
+
+.webpage{
+   position:fixed;
+   justify-content: center;
+   background-color:rgb(238, 230, 230);
+   /* border:1px solid  black; */
+   width: 900px;
+   height:600px;
+   padding-left:180px;
+   margin:10px 300px 100px 300px;
+
+
+}
+
+.webpage:hover{
+   box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+   /* background-color: pink; */
+   
+}
+
+.page-btn{
+   border:2px solid;
+   padding :10px;
+   text-decoration: none;
+   
+}
+
+#color-btn{
+   position: absolute;
+   margin-top: 40px;
+   padding-left:100px;
+   padding-bottom:10px;
+   padding-right:100px;
+   background-color: hsl(71, 73%, 54%);
+   color:white;
+   border-radius: 5px;
+   border: none;
+   
+}
